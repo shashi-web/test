@@ -1,5 +1,7 @@
 #!/bin/bash
-NAME=DevOps
-  echo name=${NAME}
-VAR="Welcome to"
-  echo ${VAR} ${NAME}
+NAME="Welcome To"
+VAR="DevOps"
+BLUE="\e[31m"
+RESET="\e[0m"
+echo -e "${NAME} ${BLUE}${VAR}${RESET}"
+
