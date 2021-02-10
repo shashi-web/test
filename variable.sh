@@ -15,3 +15,8 @@ DATE=$(date +%F)
 echo "todays date is $DATE"
 
 
+ADD=$((2+3-4+6+7))
+
+echo value = $ADD
+
+
