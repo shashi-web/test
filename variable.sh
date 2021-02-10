@@ -9,4 +9,9 @@ echo "hello, todays date is 2021-02-08"
 DATE=$(date +%F)
 echo "Hello, todays date is $DATE"
 
+echo "todays date 2021-02-01"
+
+DATE=$(date +%F)
+echo "todays date is $DATE"
+
 
