@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -p "enter the name " NAME
-read -p "enter your age " AGE
+read -p "enter the value of A" $A
+read -p "Enter the value of B" $B
 
-echo -e "\n your name =$NAME \nYour Age = $AGE"
+echo -e "value of A+B= $A+$B"
