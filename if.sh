@@ -1,5 +1,5 @@
 #!/bin/bash
-fun1() {
+
   A=10
   B=20
   if [ "$A" == "$B" ]; then
@@ -7,4 +7,4 @@ fun1() {
     else
       echo "sum of 2values= $((A + B))"
       fi
-}
+
