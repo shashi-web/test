@@ -1,6 +1,5 @@
 #!/bin/bash
-sample()
-{
+sample(){
 
   a=200
   echo "Hello from sample function"
