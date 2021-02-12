@@ -1,6 +1,11 @@
 #!/bin/bash
 sample() {
-  b=200
-  echo -e "Hello from sample function"
-  echo a=$b
+  read -p "enter the value of A=" $num1
+  read -p "enter the value of B=" $num2
+  if [ "$num1" == "$num2" ]; then
+    echo "$* "
+    else
+      echo"there are not equal"
+      fi
 }
+sample Both the values are equal
