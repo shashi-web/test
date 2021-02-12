@@ -1,6 +1,6 @@
 #!/bin/bash
 function fun1() {
-  A=10
+  A=20
   B=20
   if [ "$A" == "$B" ]; then
     echo "Both the values are equal"
