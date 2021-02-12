@@ -8,3 +8,5 @@ function fun1() {
       echo "sum of 2values= $((A + B))"
       fi
 }
+
+fun1
