@@ -2,6 +2,7 @@
 sample() {
   read -p "enter the value of A=" ${num1}
   read -p "enter the value of B=" ${num2}
+  # shellcheck disable=SC2170
   if [ "$num1" -ne "$num2" ]; then
     echo "$* "
     else
